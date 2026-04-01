@@ -1,0 +1,311 @@
+{
+  "_comment": "WorkEZ — Complete Image Alt Tags for ALL Dev Pages. Mapped to ACTUAL image filenames from dev.workez.in crawl.",
+  "_updated": "2026-04-01",
+  "_rules": [
+    "Every <img> MUST have an alt attribute",
+    "Decorative icons → alt=\"\" (empty string, not missing)",
+    "Include primary keyword naturally — don't stuff",
+    "Max 125 characters per alt tag",
+    "Format for centres: WorkEZ [Centre] — [what's shown] in [Area], [City]"
+  ],
+
+  "global_elements": {
+    "_note": "These appear on EVERY page — update once in the shared layout component",
+    "header": {
+      "header/workEzLogo.png": "WorkEZ — Managed Office Spaces in Chennai, Bangalore & Coimbatore",
+      "header/arrowIcon.png": ""
+    },
+    "footer": {
+      "header/workEzLogo.png": "WorkEZ logo — managed office spaces across South India"
+    }
+  },
+
+  "homepage": {
+    "path": "/",
+    "hero": {
+      "homePage/bannerImg.png": "WorkEZ managed office interior — enterprise-grade workstations and meeting rooms"
+    },
+    "client_logos": {
+      "homePage/tata.png": "Tata — WorkEZ enterprise client",
+      "homePage/adams.png": "Adams Bridge Global — WorkEZ enterprise client",
+      "homePage/car.png": "CAR — WorkEZ enterprise client",
+      "homePage/ford.png": "Ford India — WorkEZ enterprise client",
+      "homePage/iris.png": "Iris Software — WorkEZ enterprise client",
+      "homePage/jhonson.png": "Johnson Controls — WorkEZ enterprise client",
+      "homePage/psiog.png": "PSIOG Digital — WorkEZ enterprise client",
+      "homePage/renault.png": "Renault India — WorkEZ enterprise client",
+      "homePage/kia.png": "Kia Motors — WorkEZ enterprise client",
+      "homePage/kolon.png": "Kolon Industries — WorkEZ enterprise client"
+    },
+    "solutions": {
+      "homePage/update1.png": "Enterprise managed office — open floor plan with workstations at WorkEZ",
+      "homePage/update2.png": "Private managed office cabin with ergonomic furniture at WorkEZ",
+      "homePage/update3.png": "Boardroom and meeting space with AV equipment at WorkEZ"
+    },
+    "features": {
+      "homePage/workEZ.png": "WorkEZ managed office building exterior — Grade-A workspace",
+      "homePage/locationIcon.png": "",
+      "homePage/moveIn.png": "",
+      "homePage/flexible.png": ""
+    },
+    "locations": {
+      "homePage/velachery.png": "WorkEZ Helix — managed office in Velachery, Chennai, 2,250 seats",
+      "homePage/omr.png": "WorkEZ Urban Square — managed office on OMR, Chennai, 3,000 seats",
+      "homePage/bangalore.png": "WorkEZ — managed office in Bellandur ORR, Bangalore, 3,300 seats",
+      "homePage/coimbatore.png": "WorkEZ Vivera — managed office in Coimbatore, 2,000 seats"
+    },
+    "awards": {
+      "homePage/award1.png": "BW Realty World Flex Spaces Award — WorkEZ",
+      "homePage/award2.png": "5th Realty+ Flex Spaces Excellence Award 2024 — WorkEZ",
+      "homePage/award3.png": "Realty+ Flex Spaces Excellence Award — WorkEZ",
+      "homePage/award4.png": "Economic Times Real Estate Award — WorkEZ"
+    },
+    "app": {
+      "homePage/phone.png": "WorkEZ mobile app — manage workspace, book meeting rooms, access amenities",
+      "homePage/android.png": "Download WorkEZ app on Google Play — scan QR code",
+      "homePage/ios.png": "Download WorkEZ app on App Store — scan QR code"
+    }
+  },
+
+  "about_us": {
+    "path": "/about-us",
+    "hero": {
+      "homePage/aboutHero.png": "About WorkEZ — Chennai's largest managed office space provider"
+    },
+    "journey": {
+      "about/journey.jpg": "WorkEZ growth journey — from 3 centres in 2019 to 12 centres across 3 cities"
+    },
+    "team_photos": {
+      "about/sr.jpg": "Y S Sunil Reddy — Co-Founder and Managing Director, WorkEZ",
+      "about/pratap.png": "Prathap Murali — Chief Executive Officer, WorkEZ",
+      "about/saravanan.png": "S Saravanan — Head of Finance, WorkEZ",
+      "about/grace.png": "D Grace Subhashini — Head of Human Resources, WorkEZ",
+      "about/diwakar.png": "S P Diwakar — Vice President Operations, WorkEZ",
+      "about/teamMem5.png": "Arun Prabhu RA — AVP Sales, WorkEZ"
+    },
+    "client_logos": "_same_as_homepage"
+  },
+
+  "careers": {
+    "path": "/careers",
+    "hero": {
+      "homePage/aboutHero.png": "Careers at WorkEZ — join India's fastest-growing managed office provider"
+    }
+  },
+
+  "gallery": {
+    "path": "/gallery",
+    "_note": "Gallery images should follow pattern: WorkEZ [Centre Name] — [room type] in [Area], [City]",
+    "_examples": [
+      "WorkEZ Hansa — open workspace with enterprise workstations, Anna Salai, Chennai",
+      "WorkEZ Willow Square — cafeteria and dining area, Guindy, Chennai",
+      "WorkEZ Urban Square — private office cabin, OMR, Chennai",
+      "WorkEZ Helix — meeting room with video conferencing, Velachery, Chennai"
+    ]
+  },
+
+  "blog": {
+    "path": "/blog",
+    "_template": "Each blog post featured image: [Descriptive summary of image] — WorkEZ Blog"
+  },
+
+  "book_a_tour": {
+    "path": "/book-a-tour",
+    "hero": {
+      "homePage/aboutHero.png": "Book a free office tour at WorkEZ managed office centres"
+    }
+  },
+
+  "solutions_enterprise": {
+    "path": "/managed-office-space/enterprise-office-space",
+    "hero": {
+      "solution/enterprise/hero.webp": "Enterprise managed office space — dedicated floors and custom fit-outs at WorkEZ"
+    },
+    "carousel": {
+      "solution/enterprise/carousel/carousel1.webp": "Enterprise workspace at WorkEZ — open plan office with workstations",
+      "solution/enterprise/carousel/carousel2.webp": "Enterprise office floor at WorkEZ — collaborative workspace design",
+      "solution/enterprise/carousel/carousel3.webp": "Custom enterprise office fit-out at WorkEZ — branded workspace",
+      "solution/enterprise/carousel/carousel4.webp": "Enterprise meeting room at WorkEZ — boardroom with AV equipment",
+      "solution/enterprise/carousel/carousel5.webp": "Enterprise cafeteria at WorkEZ — dining and breakout area",
+      "solution/enterprise/carousel/carousel6.webp": "Enterprise reception at WorkEZ — professional lobby area",
+      "solution/enterprise/carousel/carousel7.webp": "Enterprise recreation zone at WorkEZ — employee wellness area",
+      "solution/enterprise/carousel/carousel8.webp": "Enterprise workspace at WorkEZ — panoramic office view"
+    },
+    "feature_icons": {
+      "solution/click.png": "",
+      "solution/customer.png": "",
+      "solution/desk.png": "",
+      "solution/pin.png": "",
+      "solution/shield.png": "",
+      "solution/dna.png": ""
+    }
+  },
+
+  "solutions_private": {
+    "path": "/managed-office-space/private-managed-offices",
+    "hero": {
+      "solution/private/hero.webp": "Private managed office — furnished cabin with ergonomic workstations at WorkEZ"
+    },
+    "carousel": {
+      "solution/private/carousel/carousel1.webp": "Private office cabin at WorkEZ — furnished workspace for teams of 5-50",
+      "solution/private/carousel/carousel2.webp": "Private managed office interior at WorkEZ — modern furnishing",
+      "solution/private/carousel/carousel3.webp": "Dedicated desk workspace at WorkEZ — private office setup",
+      "solution/private/carousel/carousel4.webp": "Private meeting room at WorkEZ — compact conference setup",
+      "solution/private/carousel/carousel5.webp": "Private office lounge area at WorkEZ — breakout space",
+      "solution/private/carousel/carousel6.webp": "Private office cabin at WorkEZ — window-side workspace"
+    },
+    "feature_icons": {
+      "solution/quality.png": "",
+      "solution/afford.png": "",
+      "solution/culture.png": ""
+    }
+  },
+
+  "solutions_meeting": {
+    "path": "/managed-office-space/corporate-conference-room",
+    "hero": {
+      "solution/meeting/hero.webp": "Corporate boardroom and meeting room for rent at WorkEZ"
+    },
+    "carousel": {
+      "solution/meeting/carousel/carousel1.webp": "Boardroom at WorkEZ — executive meeting room with video conferencing",
+      "solution/meeting/carousel/carousel2.webp": "Conference room at WorkEZ — large meeting space for 20+ people",
+      "solution/meeting/carousel/carousel3.webp": "Discussion room at WorkEZ — compact meeting setup for 6-8 people",
+      "solution/meeting/carousel/carousel4.webp": "Event space at WorkEZ — corporate workshop and presentation area",
+      "solution/meeting/carousel/carousel5.webp": "Meeting room at WorkEZ — whiteboard and presentation setup",
+      "solution/meeting/carousel/carousel6.webp": "Collaboration space at WorkEZ — informal meeting area",
+      "solution/meeting/carousel/carousel7.webp": "Premium boardroom at WorkEZ — wood-panelled executive meeting room",
+      "solution/meeting/carousel/carousel8.webp": "Training room at WorkEZ — classroom-style meeting setup"
+    }
+  },
+
+  "location_centres_shared": {
+    "path": "/locations/*",
+    "_note": "These images appear on ALL location centre pages — same amenity icons used everywhere",
+    "spec_icons": {
+      "location/landmark.png": "",
+      "location/totalCapacity.png": "",
+      "location/floors.png": "",
+      "location/spaces.png": ""
+    },
+    "amenity_icons": {
+      "_note": "Dev used SEO keywords as filenames — these are decorative icons, use alt='' or the amenity name only",
+      "amenities/Book a coworking space.png": "24 hour access",
+      "amenities/business address.png": "Access cards",
+      "amenities/Chennai coworking.png": "Air conditioning",
+      "amenities/Co working spaces.png": "Air-conditioned cafeteria",
+      "amenities/Commercial office for rent.png": "Backup electricity",
+      "amenities/Commercial office in Chennai.png": "CCTV surveillance",
+      "amenities/Commercial office space.png": "Creche facility",
+      "amenities/Commercial rental space.png": "Documentation services",
+      "amenities/Coworking near me.png": "High-speed WiFi",
+      "amenities/Coworking space room.png": "Front desk manager",
+      "amenities/health.png": "Gymnasium and fitness centre",
+      "amenities/it.png": "Community and social events",
+      "amenities/lan.png": "Housekeeping services",
+      "amenities/meeting.png": "Health station",
+      "amenities/Office space for rent.png": "IP phone system",
+      "amenities/Office space in Chennai.png": "On-site IT support",
+      "amenities/On demand coworking space.png": "LAN connection"
+    },
+    "gallery_placeholder": {
+      "location/hansaWork.jpg": "_NOTE: This same image is used on ALL location pages as placeholder. Dev must replace with unique photos per centre."
+    }
+  },
+
+  "location_images_shared": {
+    "_note": "These centre thumbnail images appear on Solutions pages and location carousels",
+    "locations/WorkEZ-Helix-Velachery.webp": "WorkEZ Helix — managed office in Velachery, Chennai",
+    "locations/WorkEZ-The-Ark-OMR.webp": "WorkEZ The Ark — managed office on OMR Sholinganallur, Chennai",
+    "locations/WorkEZ-Techshire-Bengaluru.webp": "WorkEZ — managed office in Bellandur ORR, Bengaluru",
+    "locations/WorkEZ-Vivera-Coimbatore.webp": "WorkEZ Vivera — managed office in Saravanampatti, Coimbatore",
+    "locations/WorkEZ-Chambers-Guindy.webp": "WorkEZ Chambers — managed office in Guindy, Chennai"
+  },
+
+  "location_per_centre": {
+    "_note": "Each centre page uses aboutHero.png as hero (placeholder) + hansaWork.jpg x4 (placeholder). Once real photos are uploaded, use these alt tags:",
+    "annasalai-hansa": {
+      "hero": "WorkEZ Hansa — managed office space on Anna Salai, Chennai, 1,530 enterprise seats",
+      "gallery_1": "Open workspace with enterprise workstations at WorkEZ Hansa, Anna Salai",
+      "gallery_2": "Meeting room at WorkEZ Hansa — near Thousand Lights Metro, Anna Salai",
+      "gallery_3": "Cafeteria and dining area at WorkEZ Hansa, Anna Salai, Chennai",
+      "gallery_4": "Reception and lobby at WorkEZ Hansa, Anna Salai, Chennai"
+    },
+    "annasalai-clubhouse": {
+      "hero": "WorkEZ Clubhouse — managed office on Club House Road, Anna Salai, Chennai",
+      "gallery_1": "Furnished workstations at WorkEZ Clubhouse, Anna Salai, Chennai",
+      "gallery_2": "Meeting room at WorkEZ Clubhouse — near Taj Club House, Chennai",
+      "gallery_3": "Lounge area at WorkEZ Clubhouse, Anna Salai, Chennai",
+      "gallery_4": "Private office cabin at WorkEZ Clubhouse, Anna Salai, Chennai"
+    },
+    "guindy-willow-square": {
+      "hero": "WorkEZ Willow Square — managed office in Guindy, Chennai, 1,250 enterprise seats",
+      "gallery_1": "Enterprise workspace at WorkEZ Willow Square, Guindy, Chennai",
+      "gallery_2": "Meeting room at WorkEZ Willow Square — near Guindy Metro Station",
+      "gallery_3": "Cafeteria at WorkEZ Willow Square, SIDCO Industrial Estate, Guindy",
+      "gallery_4": "Recreation zone at WorkEZ Willow Square, Guindy, Chennai"
+    },
+    "guindy-chambers": {
+      "hero": "WorkEZ Chambers — boutique managed office in Guindy, Chennai, 450 seats",
+      "gallery_1": "Workstations at WorkEZ Chambers, Guindy, Chennai",
+      "gallery_2": "Meeting room at WorkEZ Chambers, Guindy — near ITC Grand Chola",
+      "gallery_3": "Pantry area at WorkEZ Chambers, Guindy, Chennai",
+      "gallery_4": "Private cabin at WorkEZ Chambers, Guindy, Chennai"
+    },
+    "perungudi-sm-towers": {
+      "hero": "WorkEZ SM Towers — managed office on OMR, Perungudi, Chennai, 1,740 seats",
+      "gallery_1": "Enterprise floor at WorkEZ SM Towers, Perungudi OMR, Chennai",
+      "gallery_2": "Meeting room at WorkEZ SM Towers — Chennai IT corridor",
+      "gallery_3": "Cafeteria at WorkEZ SM Towers, Perungudi, Chennai",
+      "gallery_4": "Open workspace at WorkEZ SM Towers, OMR, Chennai"
+    },
+    "omr-urban-square": {
+      "hero": "WorkEZ Urban Square — Chennai's largest managed office, OMR, 3,000 seats",
+      "gallery_1": "Open plan workspace at WorkEZ Urban Square, OMR, Chennai",
+      "gallery_2": "Boardroom at WorkEZ Urban Square — near Holiday Inn, OMR",
+      "gallery_3": "Recreation and billiards area at WorkEZ Urban Square, OMR",
+      "gallery_4": "Enterprise cafeteria at WorkEZ Urban Square, OMR, Chennai"
+    },
+    "omr-the-ark": {
+      "hero": "WorkEZ The Ark — managed office in Sholinganallur, OMR, Chennai, 875 seats",
+      "gallery_1": "Workspace at WorkEZ The Ark, Sholinganallur OMR, Chennai",
+      "gallery_2": "Meeting room at WorkEZ The Ark — near upcoming Sholinganallur Metro",
+      "gallery_3": "Cafeteria at WorkEZ The Ark, OMR, Chennai",
+      "gallery_4": "Private cabin at WorkEZ The Ark, Sholinganallur, Chennai"
+    },
+    "pallavaram-the-address": {
+      "hero": "WorkEZ The Address — managed office near Chennai Airport, Pallavaram, 2,600 seats",
+      "gallery_1": "Enterprise workspace at WorkEZ Pallavaram — 5 min from Chennai Airport",
+      "gallery_2": "Meeting room at WorkEZ Pallavaram — near Chennai International Airport",
+      "gallery_3": "Lobby and snooker lounge at WorkEZ The Address, Pallavaram",
+      "gallery_4": "Private cabin at WorkEZ Pallavaram — airport proximity managed office"
+    },
+    "velachery-helix": {
+      "hero": "WorkEZ Helix — managed office in Velachery, Chennai, 2,250 seats",
+      "gallery_1": "Open workspace at WorkEZ Helix, Velachery, Chennai",
+      "gallery_2": "Meeting room at WorkEZ Helix — next to Phoenix MarketCity Mall",
+      "gallery_3": "Cafeteria at WorkEZ Helix, Velachery, Chennai",
+      "gallery_4": "Enterprise floor at WorkEZ Helix — near Westin Hotel, Velachery"
+    },
+    "alwarpet-park-centre": {
+      "hero": "WorkEZ Park Centre — premium managed office in Alwarpet, Chennai, 500 seats",
+      "gallery_1": "Boutique workspace at WorkEZ Alwarpet — Chennai's premium neighbourhood",
+      "gallery_2": "Meeting room at WorkEZ Alwarpet — near TTK Road, Chennai",
+      "gallery_3": "Lounge area at WorkEZ Park Centre, Alwarpet, Chennai",
+      "gallery_4": "Private office at WorkEZ Alwarpet — premium interior"
+    },
+    "bellandur": {
+      "hero": "WorkEZ Bengaluru — managed office on Outer Ring Road, Bellandur, 3,300 seats",
+      "gallery_1": "Enterprise workspace at WorkEZ Bengaluru — 7 floors, Bellandur ORR",
+      "gallery_2": "Meeting room at WorkEZ Bengaluru — near Embassy Tech Village",
+      "gallery_3": "Cafeteria at WorkEZ Bengaluru, Outer Ring Road",
+      "gallery_4": "Private office cabin at WorkEZ Bengaluru, Bellandur ORR"
+    },
+    "saravanampatti": {
+      "hero": "WorkEZ Vivera — managed office in Saravanampatti IT Corridor, Coimbatore, 2,000 seats",
+      "gallery_1": "Enterprise workspace at WorkEZ Coimbatore — anchor tenant PwC",
+      "gallery_2": "Meeting room at WorkEZ Vivera, Saravanampatti, Coimbatore",
+      "gallery_3": "Cafeteria at WorkEZ Vivera, Coimbatore",
+      "gallery_4": "Open workspace at WorkEZ Coimbatore — Phase 1, 100,000 sq ft"
+    }
+  }
+}
