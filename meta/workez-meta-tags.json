@@ -1,34 +1,20 @@
 {
-  "_comment": "WorkEZ Meta Tags — Generated from SEO Command Centre v19. For Next.js metadata API.",
-  "_updated": "2026-03-31",
-  "_instructions": "Use these in your Next.js page metadata exports or <Head> components. Each page has: title, description, keywords, canonical, og tags, and twitter cards.",
+  "_comment": "WorkEZ Meta Tags — Rebuilt for ACTUAL dev site URLs (April 2026)",
+  "_updated": "2026-04-01",
+  "_url_note": "Privacy & Terms URLs currently have & — flagged for dev to fix to /privacy-policy and /terms-and-conditions",
   "defaults": {
     "siteName": "WorkEZ",
     "locale": "en_IN",
     "twitterHandle": "@workez_",
     "ogImage": "https://workez.in/og-default.jpg",
-    "ogImageWidth": 1200,
-    "ogImageHeight": 630,
-    "themeColor": "#1A1A2E",
     "robots": "index, follow",
-    "author": "WorkEZ",
-    "publisher": "Work Easy Space Solutions Pvt. Ltd.",
-    "_twitter_note": "VERIFIED ✅ — @workez_ confirmed",
     "social_profiles": {
       "facebook": "https://www.facebook.com/Workeasyspace/",
       "instagram": "https://www.instagram.com/workez_/",
       "twitter": "https://x.com/workez_",
       "linkedin": "https://in.linkedin.com/company/work-ez",
       "youtube": "https://www.youtube.com/@workez_"
-    },
-    "sameAs": [
-      "https://www.facebook.com/Workeasyspace/",
-      "https://www.instagram.com/workez_/",
-      "https://x.com/workez_",
-      "https://in.linkedin.com/company/work-ez",
-      "https://www.youtube.com/@workez_"
-    ],
-    "_sameAs_note": "Add these to Organization schema as \"sameAs\" array. Google uses this for Knowledge Panel and social links in SERPs."
+    }
   },
   "pages": {
     "/": {
@@ -50,43 +36,64 @@
         "title": "Managed Office Space Chennai, Bangalore & Coimbatore | WorkEZ",
         "description": "Enterprise managed offices across 12 centres in Chennai, Bangalore & Coimbatore. 28,000+ seats. Zero CapEx. Custom fit-outs in 45 days. Book a tour.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office space, managed office Chennai, coworking space Chennai, office space Bangalore, managed workspace India, plug and play office"
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
     },
-    "/about-us/": {
-      "title": "About WorkEZ — Chennai's Largest Managed Office Provider",
-      "description": "Chennai's largest managed office provider. 28,000+ seats across 12 centres in 3 cities. Award-winning workspaces by Work Easy Space Solutions.",
-      "canonical": "https://workez.in/about-us/",
+    "/about-us": {
+      "title": "About WorkEZ — Chennai’s Largest Managed Office Provider",
+      "description": "Chennai’s largest managed office provider. 28,000+ seats across 12 centres in 3 cities. Award-winning workspaces by Work Easy Space Solutions.",
+      "canonical": "https://workez.in/about-us",
       "robots": "index, follow",
       "og": {
-        "title": "About WorkEZ — Chennai's Largest Managed Office Provider",
-        "description": "Chennai's largest managed office provider. 28,000+ seats across 12 centres in 3 cities. Award-winning workspaces by Work Easy Space Solutions.",
+        "title": "About WorkEZ — Chennai’s Largest Managed Office Provider",
+        "description": "Chennai’s largest managed office provider. 28,000+ seats across 12 centres in 3 cities. Award-winning workspaces by Work Easy Space Solutions.",
         "type": "website",
-        "url": "https://workez.in/about-us/",
+        "url": "https://workez.in/about-us",
         "site_name": "WorkEZ",
         "locale": "en_IN",
         "image": "https://workez.in/og-default.jpg"
       },
       "twitter": {
         "card": "summary_large_image",
-        "title": "About WorkEZ — Chennai's Largest Managed Office Provider",
-        "description": "Chennai's largest managed office provider. 28,000+ seats across 12 centres in 3 cities. Award-winning workspaces by Work Easy Space Solutions.",
+        "title": "About WorkEZ — Chennai’s Largest Managed Office Provider",
+        "description": "Chennai’s largest managed office provider. 28,000+ seats across 12 centres in 3 cities. Award-winning workspaces by Work Easy Space Solutions.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/careers": {
+      "title": "Careers at WorkEZ — Join Our Growing Team",
+      "description": "Join WorkEZ — open roles in operations, sales, marketing & technology across Chennai, Bangalore & Coimbatore. Build India’s next-gen workspaces.",
+      "canonical": "https://workez.in/careers",
+      "robots": "index, follow",
+      "og": {
+        "title": "Careers at WorkEZ — Join Our Growing Team",
+        "description": "Join WorkEZ — open roles in operations, sales, marketing & technology across Chennai, Bangalore & Coimbatore. Build India’s next-gen workspaces.",
+        "type": "website",
+        "url": "https://workez.in/careers",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
       },
-      "keywords": "WorkEZ, about WorkEZ, managed office provider Chennai, Prathap Murali, Work Easy Space Solutions"
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Careers at WorkEZ — Join Our Growing Team",
+        "description": "Join WorkEZ — open roles in operations, sales, marketing & technology across Chennai, Bangalore & Coimbatore. Build India’s next-gen workspaces.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
     },
     "/blog": {
-      "title": "WorkEZ Blog — Managed Office Insights, Trends & Guides",
-      "description": "Expert insights on managed offices, coworking, GCCs, office design, and workspace trends in India. Guides for enterprises, startups, and CFOs from WorkEZ.",
+      "title": "WorkEZ Blog — Managed Office Insights & Guides",
+      "description": "Expert insights on managed offices, coworking, GCCs, office design, and workspace trends in India. Guides for enterprises, startups, and CFOs.",
       "canonical": "https://workez.in/blog",
       "robots": "index, follow",
       "og": {
-        "title": "WorkEZ Blog — Managed Office Insights, Trends & Guides",
-        "description": "Expert insights on managed offices, coworking, GCCs, office design, and workspace trends in India. Guides for enterprises, startups, and CFOs from WorkEZ.",
+        "title": "WorkEZ Blog — Managed Office Insights & Guides",
+        "description": "Expert insights on managed offices, coworking, GCCs, office design, and workspace trends in India. Guides for enterprises, startups, and CFOs.",
         "type": "website",
         "url": "https://workez.in/blog",
         "site_name": "WorkEZ",
@@ -95,421 +102,12 @@
       },
       "twitter": {
         "card": "summary_large_image",
-        "title": "WorkEZ Blog — Managed Office Insights, Trends & Guides",
-        "description": "Expert insights on managed offices, coworking, GCCs, office design, and workspace trends in India. Guides for enterprises, startups, and CFOs from WorkEZ.",
+        "title": "WorkEZ Blog — Managed Office Insights & Guides",
+        "description": "Expert insights on managed offices, coworking, GCCs, office design, and workspace trends in India. Guides for enterprises, startups, and CFOs.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office blog, coworking insights, office space trends India, workspace guide"
-    },
-    "/blog/wework-alternative-chennai": {
-      "title": "WeWork Alternatives in Chennai 2026 — Who’s Better? | WorkEZ",
-      "description": "Looking for WeWork alternatives in Chennai? Compare WorkEZ, Smartworks, Innov8, GoFloaters and more. Pricing, locations, and honest reviews.",
-      "canonical": "https://workez.in/blog/wework-alternative-chennai",
-      "robots": "index, follow",
-      "og": {
-        "title": "WeWork Alternatives in Chennai 2026 — Who’s Better? | WorkEZ",
-        "description": "Looking for WeWork alternatives in Chennai? Compare WorkEZ, Smartworks, Innov8, GoFloaters and more. Pricing, locations, and honest reviews.",
-        "type": "article",
-        "url": "https://workez.in/blog/wework-alternative-chennai",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
+        "creator": "@workez_",
         "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "WeWork Alternatives in Chennai 2026 — Who’s Better? | WorkEZ",
-        "description": "Looking for WeWork alternatives in Chennai? Compare WorkEZ, Smartworks, Innov8, GoFloaters and more. Pricing, locations, and honest reviews.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "WeWork alternative Chennai, best coworking Chennai, WorkEZ vs WeWork"
-    },
-    "/book-a-tour/": {
-      "title": "Book a Free Office Tour — Visit WorkEZ Centres | WorkEZ",
-      "description": "Schedule a free tour of any WorkEZ managed office centre. 12 locations across Chennai, Bangalore & Coimbatore. Walk-ins welcome.",
-      "canonical": "https://workez.in/book-a-tour/",
-      "robots": "index, follow",
-      "og": {
-        "title": "Book a Free Office Tour — Visit WorkEZ Centres | WorkEZ",
-        "description": "Schedule a free tour of any WorkEZ managed office centre. 12 locations across Chennai, Bangalore & Coimbatore. Walk-ins welcome.",
-        "type": "website",
-        "url": "https://workez.in/book-a-tour/",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Book a Free Office Tour — Visit WorkEZ Centres | WorkEZ",
-        "description": "Schedule a free tour of any WorkEZ managed office centre. 12 locations across Chennai, Bangalore & Coimbatore. Walk-ins welcome.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "book office tour, visit WorkEZ, office space tour Chennai, managed office visit"
-    },
-    "/careers/": {
-      "title": "Careers at WorkEZ — Join Our Growing Team",
-      "description": "Join WorkEZ — open roles in operations, sales, marketing & technology across Chennai, Bangalore & Coimbatore. Build India's next-gen workspaces.",
-      "canonical": "https://workez.in/careers/",
-      "robots": "index, follow",
-      "og": {
-        "title": "Careers at WorkEZ — Join Our Growing Team",
-        "description": "Join WorkEZ — open roles in operations, sales, marketing & technology across Chennai, Bangalore & Coimbatore. Build India's next-gen workspaces.",
-        "type": "website",
-        "url": "https://workez.in/careers/",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Careers at WorkEZ — Join Our Growing Team",
-        "description": "Join WorkEZ — open roles in operations, sales, marketing & technology across Chennai, Bangalore & Coimbatore. Build India's next-gen workspaces.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "WorkEZ careers, jobs at WorkEZ, workspace company jobs Chennai"
-    },
-    "/case-studies/pwc-coimbatore-gcc": {
-      "title": "PwC US Division — GCC Setup in Coimbatore | WorkEZ Case Study",
-      "description": "How PwC set up their Global Capability Centre at WorkEZ Coimbatore. 2,000 seats, custom fit-out, operational in 45 days.",
-      "canonical": "https://workez.in/case-studies/pwc-coimbatore-gcc",
-      "robots": "index, follow",
-      "og": {
-        "title": "PwC US Division — GCC Setup in Coimbatore | WorkEZ Case Study",
-        "description": "How PwC set up their Global Capability Centre at WorkEZ Coimbatore. 2,000 seats, custom fit-out, operational in 45 days.",
-        "type": "article",
-        "url": "https://workez.in/case-studies/pwc-coimbatore-gcc",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "PwC US Division — GCC Setup in Coimbatore | WorkEZ Case Study",
-        "description": "How PwC set up their Global Capability Centre at WorkEZ Coimbatore. 2,000 seats, custom fit-out, operational in 45 days.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "PwC Coimbatore office, GCC setup case study, WorkEZ enterprise client"
-    },
-    "/case-studies/renault-guindy": {
-      "title": "Renault India — Enterprise HQ at Guindy | WorkEZ Case Study",
-      "description": "How Renault India set up their enterprise headquarters at WorkEZ Willow Square, Guindy. Dedicated floor, custom branding, zero CapEx.",
-      "canonical": "https://workez.in/case-studies/renault-guindy",
-      "robots": "index, follow",
-      "og": {
-        "title": "Renault India — Enterprise HQ at Guindy | WorkEZ Case Study",
-        "description": "How Renault India set up their enterprise headquarters at WorkEZ Willow Square, Guindy. Dedicated floor, custom branding, zero CapEx.",
-        "type": "article",
-        "url": "https://workez.in/case-studies/renault-guindy",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Renault India — Enterprise HQ at Guindy | WorkEZ Case Study",
-        "description": "How Renault India set up their enterprise headquarters at WorkEZ Willow Square, Guindy. Dedicated floor, custom branding, zero CapEx.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "Renault office Guindy, enterprise office case study, WorkEZ Guindy client"
-    },
-    "/clients": {
-      "title": "Our Clients — 100+ Enterprises Trust WorkEZ",
-      "description": "Trusted by Tata, Renault, Ford, Kia, PwC, and 100+ enterprises. See why leading companies choose WorkEZ for their managed office needs.",
-      "canonical": "https://workez.in/clients",
-      "robots": "index, follow",
-      "og": {
-        "title": "Our Clients — 100+ Enterprises Trust WorkEZ",
-        "description": "Trusted by Tata, Renault, Ford, Kia, PwC, and 100+ enterprises. See why leading companies choose WorkEZ for their managed office needs.",
-        "type": "website",
-        "url": "https://workez.in/clients",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Our Clients — 100+ Enterprises Trust WorkEZ",
-        "description": "Trusted by Tata, Renault, Ford, Kia, PwC, and 100+ enterprises. See why leading companies choose WorkEZ for their managed office needs.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "WorkEZ clients, enterprise clients managed office, Fortune 500 coworking"
-    },
-    "/compare/bengaluru": {
-      "title": "Managed Office Spaces in Bellandur ORR, Bengaluru",
-      "description": "Compare the best coworking and managed office spaces in Bellandur ORR, Bengaluru. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-      "canonical": "https://workez.in/compare/bengaluru",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Spaces in Bellandur ORR, Bengaluru",
-        "description": "Compare the best coworking and managed office spaces in Bellandur ORR, Bengaluru. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "type": "website",
-        "url": "https://workez.in/compare/bengaluru",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Spaces in Bellandur ORR, Bengaluru",
-        "description": "Compare the best coworking and managed office spaces in Bellandur ORR, Bengaluru. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "coworking space Bellandur ORR Bengaluru, managed office Bellandur ORR, best office space Bellandur ORR, office comparison Bengaluru"
-    },
-    "/compare/chennai-alwarpet": {
-      "title": "Managed Office Spaces in Alwarpet, Chennai",
-      "description": "Compare the best coworking and managed office spaces in Alwarpet, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-      "canonical": "https://workez.in/compare/chennai-alwarpet",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Spaces in Alwarpet, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Alwarpet, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "type": "website",
-        "url": "https://workez.in/compare/chennai-alwarpet",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Spaces in Alwarpet, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Alwarpet, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "coworking space Alwarpet Chennai, managed office Alwarpet, best office space Alwarpet, office comparison Chennai"
-    },
-    "/compare/chennai-annasalai": {
-      "title": "Managed Office Spaces in Anna Salai, Chennai",
-      "description": "Compare the best coworking and managed office spaces in Anna Salai, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-      "canonical": "https://workez.in/compare/chennai-annasalai",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Spaces in Anna Salai, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Anna Salai, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "type": "website",
-        "url": "https://workez.in/compare/chennai-annasalai",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Spaces in Anna Salai, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Anna Salai, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "coworking space Anna Salai Chennai, managed office Anna Salai, best office space Anna Salai, office comparison Chennai"
-    },
-    "/compare/chennai-guindy": {
-      "title": "Managed Office Spaces in Guindy, Chennai",
-      "description": "Compare the best coworking and managed office spaces in Guindy, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-      "canonical": "https://workez.in/compare/chennai-guindy",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Spaces in Guindy, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Guindy, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "type": "website",
-        "url": "https://workez.in/compare/chennai-guindy",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Spaces in Guindy, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Guindy, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "coworking space Guindy Chennai, managed office Guindy, best office space Guindy, office comparison Chennai"
-    },
-    "/compare/chennai-omr": {
-      "title": "Managed Office Spaces on OMR, Chennai",
-      "description": "Compare the best coworking and managed office spaces in OMR, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-      "canonical": "https://workez.in/compare/chennai-omr",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Spaces on OMR, Chennai",
-        "description": "Compare the best coworking and managed office spaces in OMR, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "type": "website",
-        "url": "https://workez.in/compare/chennai-omr",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Spaces on OMR, Chennai",
-        "description": "Compare the best coworking and managed office spaces in OMR, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "coworking space OMR Chennai, managed office OMR, best office space OMR, office comparison Chennai"
-    },
-    "/compare/chennai-pallavaram": {
-      "title": "Managed Office Spaces in Pallavaram, Chennai",
-      "description": "Compare the best coworking and managed office spaces in Pallavaram, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-      "canonical": "https://workez.in/compare/chennai-pallavaram",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Spaces in Pallavaram, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Pallavaram, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "type": "website",
-        "url": "https://workez.in/compare/chennai-pallavaram",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Spaces in Pallavaram, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Pallavaram, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "coworking space Pallavaram Chennai, managed office Pallavaram, best office space Pallavaram, office comparison Chennai"
-    },
-    "/compare/chennai-perungudi": {
-      "title": "Managed Office Spaces in Perungudi, Chennai",
-      "description": "Compare the best coworking and managed office spaces in Perungudi, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-      "canonical": "https://workez.in/compare/chennai-perungudi",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Spaces in Perungudi, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Perungudi, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "type": "website",
-        "url": "https://workez.in/compare/chennai-perungudi",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Spaces in Perungudi, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Perungudi, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "coworking space Perungudi Chennai, managed office Perungudi, best office space Perungudi, office comparison Chennai"
-    },
-    "/compare/chennai-velachery": {
-      "title": "Managed Office Spaces in Velachery, Chennai",
-      "description": "Compare the best coworking and managed office spaces in Velachery, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-      "canonical": "https://workez.in/compare/chennai-velachery",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Spaces in Velachery, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Velachery, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "type": "website",
-        "url": "https://workez.in/compare/chennai-velachery",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Spaces in Velachery, Chennai",
-        "description": "Compare the best coworking and managed office spaces in Velachery, Chennai. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "coworking space Velachery Chennai, managed office Velachery, best office space Velachery, office comparison Chennai"
-    },
-    "/compare/coimbatore": {
-      "title": "Managed Office Spaces in Coimbatore",
-      "description": "Compare the best coworking and managed office spaces in Saravanampatti, Coimbatore. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-      "canonical": "https://workez.in/compare/coimbatore",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Spaces in Coimbatore",
-        "description": "Compare the best coworking and managed office spaces in Saravanampatti, Coimbatore. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "type": "website",
-        "url": "https://workez.in/compare/coimbatore",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Spaces in Coimbatore",
-        "description": "Compare the best coworking and managed office spaces in Saravanampatti, Coimbatore. Pricing, amenities, seat capacity, and reviews. Find your perfect workspace.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "coworking space Saravanampatti Coimbatore, managed office Saravanampatti, best office space Saravanampatti, office comparison Coimbatore"
-    },
-    "/faq-managed-office": {
-      "title": "Managed Office FAQ — 50 Questions Answered | WorkEZ",
-      "description": "50 frequently asked questions about managed offices in India. Pricing, setup, legal, amenities, scaling, and more — answered by WorkEZ experts.",
-      "canonical": "https://workez.in/faq-managed-office",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office FAQ — 50 Questions Answered | WorkEZ",
-        "description": "50 frequently asked questions about managed offices in India. Pricing, setup, legal, amenities, scaling, and more — answered by WorkEZ experts.",
-        "type": "website",
-        "url": "https://workez.in/faq-managed-office",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office FAQ — 50 Questions Answered | WorkEZ",
-        "description": "50 frequently asked questions about managed offices in India. Pricing, setup, legal, amenities, scaling, and more — answered by WorkEZ experts.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office FAQ, office space questions, coworking FAQ India"
-    },
-    "/faqs": {
-      "title": "Frequently Asked Questions — WorkEZ Managed Offices",
-      "description": "Answers to common questions about WorkEZ managed office spaces. Pricing, booking, amenities, locations, customization, and more.",
-      "canonical": "https://workez.in/faqs",
-      "robots": "index, follow",
-      "og": {
-        "title": "Frequently Asked Questions — WorkEZ Managed Offices",
-        "description": "Answers to common questions about WorkEZ managed office spaces. Pricing, booking, amenities, locations, customization, and more.",
-        "type": "website",
-        "url": "https://workez.in/faqs",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Frequently Asked Questions — WorkEZ Managed Offices",
-        "description": "Answers to common questions about WorkEZ managed office spaces. Pricing, booking, amenities, locations, customization, and more.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "WorkEZ FAQ, managed office questions, coworking FAQ, office space booking"
+      }
     },
     "/gallery": {
       "title": "Workspace Gallery — Tour WorkEZ Centres | WorkEZ",
@@ -530,379 +128,110 @@
         "title": "Workspace Gallery — Tour WorkEZ Centres | WorkEZ",
         "description": "Photo gallery of WorkEZ managed office spaces across Chennai, Bangalore & Coimbatore. Workstations, meeting rooms, cafeterias, and amenities.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "WorkEZ gallery, office space photos, managed office interior, workspace images"
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
     },
-    "/location/managed-office-space-bengaluru/bellandur": {
-      "title": "Managed Office in Bellandur ORR, Bengaluru | WorkEZ",
-      "description": "3,300+ enterprise seats on Outer Ring Road, Bellandur. 7 floors, 165,000 sq ft near Embassy Tech Village. Plug-and-play. Book a free tour.",
-      "canonical": "https://workez.in/location/managed-office-space-bengaluru/bellandur",
+    "/book-a-tour": {
+      "title": "Book a Free Office Tour — Visit WorkEZ | WorkEZ",
+      "description": "Schedule a free tour of any WorkEZ managed office centre. 12 locations across Chennai, Bangalore & Coimbatore. Walk-ins welcome.",
+      "canonical": "https://workez.in/book-a-tour",
       "robots": "index, follow",
       "og": {
-        "title": "Managed Office in Bellandur ORR, Bengaluru | WorkEZ",
-        "description": "3,300+ enterprise seats on Outer Ring Road, Bellandur. 7 floors, 165,000 sq ft near Embassy Tech Village. Plug-and-play. Book a free tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-bengaluru/bellandur",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/bellandur-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office in Bellandur ORR, Bengaluru | WorkEZ",
-        "description": "3,300+ enterprise seats on Outer Ring Road, Bellandur. 7 floors, 165,000 sq ft near Embassy Tech Village. Plug-and-play. Book a free tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/bellandur-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office Bellandur ORR Bengaluru, office space Bellandur ORR, coworking Bellandur ORR Bengaluru, WorkEZ Bengaluru, Bellandur ORR"
-    },
-    "/location/managed-office-space-chennai/alwarpet-park-centre": {
-      "title": "Managed Office Space in Alwarpet, Chennai — 500+ Seats | WorkEZ",
-      "description": "500 seats in Alwarpet, Chennai's most premium neighbourhood. Boutique managed office near CIT Nagar & TTK Road. Book a tour.",
-      "canonical": "https://workez.in/location/managed-office-space-chennai/alwarpet-park-centre",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Space in Alwarpet, Chennai — 500+ Seats | WorkEZ",
-        "description": "500 seats in Alwarpet, Chennai's most premium neighbourhood. Boutique managed office near CIT Nagar & TTK Road. Book a tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-chennai/alwarpet-park-centre",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/alwarpet-park-centre-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Space in Alwarpet, Chennai — 500+ Seats | WorkEZ",
-        "description": "500 seats in Alwarpet, Chennai's most premium neighbourhood. Boutique managed office near CIT Nagar & TTK Road. Book a tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/alwarpet-park-centre-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office Alwarpet Chennai, office space Alwarpet, coworking Alwarpet Chennai, WorkEZ Park Centre, Alwarpet"
-    },
-    "/location/managed-office-space-chennai/annasalai-clubhouse": {
-      "title": "Managed Office Space in Anna Salai, Chennai — 700+ Seats | WorkEZ",
-      "description": "700 enterprise seats on Club House Road, Anna Salai. Near Taj Club House & Spencer Plaza. Managed office with meeting rooms. Book a tour.",
-      "canonical": "https://workez.in/location/managed-office-space-chennai/annasalai-clubhouse",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Space in Anna Salai, Chennai — 700+ Seats | WorkEZ",
-        "description": "700 enterprise seats on Club House Road, Anna Salai. Near Taj Club House & Spencer Plaza. Managed office with meeting rooms. Book a tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-chennai/annasalai-clubhouse",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/annasalai-clubhouse-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Space in Anna Salai, Chennai — 700+ Seats | WorkEZ",
-        "description": "700 enterprise seats on Club House Road, Anna Salai. Near Taj Club House & Spencer Plaza. Managed office with meeting rooms. Book a tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/annasalai-clubhouse-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office Anna Salai Chennai, office space Anna Salai, coworking Anna Salai Chennai, WorkEZ Clubhouse, Anna Salai"
-    },
-    "/location/managed-office-space-chennai/annasalai-hansa": {
-      "title": "Managed Office in Anna Salai, Chennai | WorkEZ",
-      "description": "1,530 seats at Hansa Building, Anna Salai. 5 min from Thousand Lights Metro. Premium managed office with cafeteria. Book a tour.",
-      "canonical": "https://workez.in/location/managed-office-space-chennai/annasalai-hansa",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office in Anna Salai, Chennai | WorkEZ",
-        "description": "1,530 seats at Hansa Building, Anna Salai. 5 min from Thousand Lights Metro. Premium managed office with cafeteria. Book a tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-chennai/annasalai-hansa",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/annasalai-hansa-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office in Anna Salai, Chennai | WorkEZ",
-        "description": "1,530 seats at Hansa Building, Anna Salai. 5 min from Thousand Lights Metro. Premium managed office with cafeteria. Book a tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/annasalai-hansa-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office Anna Salai Chennai, office space Anna Salai, coworking Anna Salai Chennai, WorkEZ Hansa, Anna Salai"
-    },
-    "/location/managed-office-space-chennai/guindy-chambers": {
-      "title": "Managed Office Space in Guindy, Chennai — 450+ Seats | WorkEZ",
-      "description": "450 seats at SIDCO Industrial Estate, Guindy. Boutique enterprise office near Guindy Metro. All-inclusive pricing. Book a tour.",
-      "canonical": "https://workez.in/location/managed-office-space-chennai/guindy-chambers",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Space in Guindy, Chennai — 450+ Seats | WorkEZ",
-        "description": "450 seats at SIDCO Industrial Estate, Guindy. Boutique enterprise office near Guindy Metro. All-inclusive pricing. Book a tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-chennai/guindy-chambers",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/guindy-chambers-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Space in Guindy, Chennai — 450+ Seats | WorkEZ",
-        "description": "450 seats at SIDCO Industrial Estate, Guindy. Boutique enterprise office near Guindy Metro. All-inclusive pricing. Book a tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/guindy-chambers-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office Guindy Chennai, office space Guindy, coworking Guindy Chennai, WorkEZ Chambers, Guindy"
-    },
-    "/location/managed-office-space-chennai/guindy-willow-square": {
-      "title": "Managed Office Space in Guindy, Chennai — 1250+ Seats | WorkEZ",
-      "description": "1,250 seats at Willow Square, Guindy. Near Guindy Metro & ITC Grand Chola. 24/7 access, cafeteria, meeting rooms. Book a tour.",
-      "canonical": "https://workez.in/location/managed-office-space-chennai/guindy-willow-square",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Space in Guindy, Chennai — 1250+ Seats | WorkEZ",
-        "description": "1,250 seats at Willow Square, Guindy. Near Guindy Metro & ITC Grand Chola. 24/7 access, cafeteria, meeting rooms. Book a tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-chennai/guindy-willow-square",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/guindy-willow-square-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Space in Guindy, Chennai — 1250+ Seats | WorkEZ",
-        "description": "1,250 seats at Willow Square, Guindy. Near Guindy Metro & ITC Grand Chola. 24/7 access, cafeteria, meeting rooms. Book a tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/guindy-willow-square-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office Guindy Chennai, office space Guindy, coworking Guindy Chennai, WorkEZ Willow Square, Guindy"
-    },
-    "/location/managed-office-space-chennai/omr-the-ark": {
-      "title": "Managed Office in Sholinganallur OMR | WorkEZ",
-      "description": "875 seats at The Ark, Sholinganallur OMR. Near upcoming metro station & TCS Siruseri. Managed office with 24/7 access. Book a tour.",
-      "canonical": "https://workez.in/location/managed-office-space-chennai/omr-the-ark",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office in Sholinganallur OMR | WorkEZ",
-        "description": "875 seats at The Ark, Sholinganallur OMR. Near upcoming metro station & TCS Siruseri. Managed office with 24/7 access. Book a tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-chennai/omr-the-ark",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/omr-the-ark-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office in Sholinganallur OMR | WorkEZ",
-        "description": "875 seats at The Ark, Sholinganallur OMR. Near upcoming metro station & TCS Siruseri. Managed office with 24/7 access. Book a tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/omr-the-ark-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office OMR Sholinganallur Chennai, office space OMR Sholinganallur, coworking OMR Sholinganallur Chennai, WorkEZ The Ark, OMR"
-    },
-    "/location/managed-office-space-chennai/omr-urban-square": {
-      "title": "Managed Office Space in OMR, Chennai — 3000+ Seats | WorkEZ",
-      "description": "Chennai's largest managed office — 3,000 seats at Urban Square, OMR. 7 floors near Holiday Inn & Taj Wellington Mews. Book a tour.",
-      "canonical": "https://workez.in/location/managed-office-space-chennai/omr-urban-square",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Space in OMR, Chennai — 3000+ Seats | WorkEZ",
-        "description": "Chennai's largest managed office — 3,000 seats at Urban Square, OMR. 7 floors near Holiday Inn & Taj Wellington Mews. Book a tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-chennai/omr-urban-square",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/omr-urban-square-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Space in OMR, Chennai — 3000+ Seats | WorkEZ",
-        "description": "Chennai's largest managed office — 3,000 seats at Urban Square, OMR. 7 floors near Holiday Inn & Taj Wellington Mews. Book a tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/omr-urban-square-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office OMR Chennai, office space OMR, coworking OMR Chennai, WorkEZ Urban Square, OMR"
-    },
-    "/location/managed-office-space-chennai/pallavaram-the-address": {
-      "title": "Office Space Near Chennai Airport — Pallavaram | WorkEZ",
-      "description": "Closest managed office to Chennai airport — 5 min drive. 2,600 seats at Pallavaram. Enterprise-grade workspace. Book a free tour.",
-      "canonical": "https://workez.in/location/managed-office-space-chennai/pallavaram-the-address",
-      "robots": "index, follow",
-      "og": {
-        "title": "Office Space Near Chennai Airport — Pallavaram | WorkEZ",
-        "description": "Closest managed office to Chennai airport — 5 min drive. 2,600 seats at Pallavaram. Enterprise-grade workspace. Book a free tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-chennai/pallavaram-the-address",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/pallavaram-the-address-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Office Space Near Chennai Airport — Pallavaram | WorkEZ",
-        "description": "Closest managed office to Chennai airport — 5 min drive. 2,600 seats at Pallavaram. Enterprise-grade workspace. Book a free tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/pallavaram-the-address-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office Pallavaram (Near Airport) Chennai, office space Pallavaram (Near Airport), coworking Pallavaram (Near Airport) Chennai, WorkEZ The Address, Pallavaram"
-    },
-    "/location/managed-office-space-chennai/perungudi-sm-towers": {
-      "title": "Managed Office in Perungudi OMR, Chennai | WorkEZ",
-      "description": "1,740 seats at SM Towers, Perungudi OMR. 4 floors, 100,000 sq ft in the heart of Chennai IT corridor. Book a free tour.",
-      "canonical": "https://workez.in/location/managed-office-space-chennai/perungudi-sm-towers",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office in Perungudi OMR, Chennai | WorkEZ",
-        "description": "1,740 seats at SM Towers, Perungudi OMR. 4 floors, 100,000 sq ft in the heart of Chennai IT corridor. Book a free tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-chennai/perungudi-sm-towers",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/perungudi-sm-towers-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office in Perungudi OMR, Chennai | WorkEZ",
-        "description": "1,740 seats at SM Towers, Perungudi OMR. 4 floors, 100,000 sq ft in the heart of Chennai IT corridor. Book a free tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/perungudi-sm-towers-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office Perungudi OMR Chennai, office space Perungudi OMR, coworking Perungudi OMR Chennai, WorkEZ SM Towers, Perungudi"
-    },
-    "/location/managed-office-space-chennai/velachery-helix": {
-      "title": "Managed Office Space in Velachery, Chennai — 2250+ Seats | WorkEZ",
-      "description": "2,250 seats at Helix, Velachery. Next to Phoenix MarketCity Mall & Westin Hotel. Managed office with 24/7 access. Book a tour.",
-      "canonical": "https://workez.in/location/managed-office-space-chennai/velachery-helix",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Space in Velachery, Chennai — 2250+ Seats | WorkEZ",
-        "description": "2,250 seats at Helix, Velachery. Next to Phoenix MarketCity Mall & Westin Hotel. Managed office with 24/7 access. Book a tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-chennai/velachery-helix",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/velachery-helix-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office Space in Velachery, Chennai — 2250+ Seats | WorkEZ",
-        "description": "2,250 seats at Helix, Velachery. Next to Phoenix MarketCity Mall & Westin Hotel. Managed office with 24/7 access. Book a tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/velachery-helix-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office Velachery Chennai, office space Velachery, coworking Velachery Chennai, WorkEZ Helix, Velachery"
-    },
-    "/location/managed-office-space-coimbatore/saravanampatti": {
-      "title": "Managed Office in Saravanampatti, Coimbatore | WorkEZ",
-      "description": "2,000 seats at Vivera, Saravanampatti IT Corridor. Anchor tenant: PwC. Phase 1 of 300,000 sq ft. Managed office. Book a tour.",
-      "canonical": "https://workez.in/location/managed-office-space-coimbatore/saravanampatti",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office in Saravanampatti, Coimbatore | WorkEZ",
-        "description": "2,000 seats at Vivera, Saravanampatti IT Corridor. Anchor tenant: PwC. Phase 1 of 300,000 sq ft. Managed office. Book a tour.",
-        "type": "place",
-        "url": "https://workez.in/location/managed-office-space-coimbatore/saravanampatti",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
-        "image": "https://workez.in/assets/images/centres/saravanampatti-hero.webp"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Managed Office in Saravanampatti, Coimbatore | WorkEZ",
-        "description": "2,000 seats at Vivera, Saravanampatti IT Corridor. Anchor tenant: PwC. Phase 1 of 300,000 sq ft. Managed office. Book a tour.",
-        "site": "@workez_",
-        "image": "https://workez.in/assets/images/centres/saravanampatti-hero.webp",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office Saravanampatti Coimbatore, office space Saravanampatti, coworking Saravanampatti Coimbatore, WorkEZ Vivera, Coimbatore"
-    },
-    "/managed-office-pricing-bangalore": {
-      "title": "Managed Office Pricing in Bangalore ORR — 2026 Guide | WorkEZ",
-      "description": "Managed office pricing in Bangalore Outer Ring Road from ₹12,000/seat/month. 3,300 seats at Bellandur. Enterprise-grade workspace near Embassy Tech Village.",
-      "canonical": "https://workez.in/managed-office-pricing-bangalore",
-      "robots": "index, follow",
-      "og": {
-        "title": "Managed Office Pricing in Bangalore ORR — 2026 Guide | WorkEZ",
-        "description": "Managed office pricing in Bangalore Outer Ring Road from ₹12,000/seat/month. 3,300 seats at Bellandur. Enterprise-grade workspace near Embassy Tech Village.",
+        "title": "Book a Free Office Tour — Visit WorkEZ | WorkEZ",
+        "description": "Schedule a free tour of any WorkEZ managed office centre. 12 locations across Chennai, Bangalore & Coimbatore. Walk-ins welcome.",
         "type": "website",
-        "url": "https://workez.in/managed-office-pricing-bangalore",
+        "url": "https://workez.in/book-a-tour",
         "site_name": "WorkEZ",
         "locale": "en_IN",
         "image": "https://workez.in/og-default.jpg"
       },
       "twitter": {
         "card": "summary_large_image",
-        "title": "Managed Office Pricing in Bangalore ORR — 2026 Guide | WorkEZ",
-        "description": "Managed office pricing in Bangalore Outer Ring Road from ₹12,000/seat/month. 3,300 seats at Bellandur. Enterprise-grade workspace near Embassy Tech Village.",
+        "title": "Book a Free Office Tour — Visit WorkEZ | WorkEZ",
+        "description": "Schedule a free tour of any WorkEZ managed office centre. 12 locations across Chennai, Bangalore & Coimbatore. Walk-ins welcome.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office price Bangalore, office space cost ORR, coworking price Bellandur"
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
     },
-    "/managed-office-pricing-chennai": {
-      "title": "Managed Office Pricing Chennai 2026 | WorkEZ",
-      "description": "Managed office pricing in Chennai from ₹9,000/seat/month. Compare costs across 10 centres in Anna Salai, Guindy, OMR, Velachery, Pallavaram. No hidden charges.",
-      "canonical": "https://workez.in/managed-office-pricing-chennai",
+    "/privacy-policy": {
+      "title": "Privacy Policy — WorkEZ",
+      "description": "WorkEZ privacy policy covering data collection, usage, cookies, and personal information protection for our website and managed office services.",
+      "canonical": "https://workez.in/privacy-policy",
       "robots": "index, follow",
       "og": {
-        "title": "Managed Office Pricing Chennai 2026 | WorkEZ",
-        "description": "Managed office pricing in Chennai from ₹9,000/seat/month. Compare costs across 10 centres in Anna Salai, Guindy, OMR, Velachery, Pallavaram. No hidden charges.",
+        "title": "Privacy Policy — WorkEZ",
+        "description": "WorkEZ privacy policy covering data collection, usage, cookies, and personal information protection for our website and managed office services.",
         "type": "website",
-        "url": "https://workez.in/managed-office-pricing-chennai",
+        "url": "https://workez.in/privacy-policy",
         "site_name": "WorkEZ",
         "locale": "en_IN",
         "image": "https://workez.in/og-default.jpg"
       },
       "twitter": {
         "card": "summary_large_image",
-        "title": "Managed Office Pricing Chennai 2026 | WorkEZ",
-        "description": "Managed office pricing in Chennai from ₹9,000/seat/month. Compare costs across 10 centres in Anna Salai, Guindy, OMR, Velachery, Pallavaram. No hidden charges.",
+        "title": "Privacy Policy — WorkEZ",
+        "description": "WorkEZ privacy policy covering data collection, usage, cookies, and personal information protection for our website and managed office services.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "managed office price Chennai, office space cost Chennai, coworking price per seat Chennai"
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
     },
-    "/managed-office-space/corporate-conference-room": {
-      "title": "Meeting Rooms & Boardrooms for Rent — Hourly Booking | WorkEZ",
-      "description": "Premium meeting rooms, boardrooms, and event spaces across 12 centres. AV equipment, video conferencing, and catering. Book by the hour.",
-      "canonical": "https://workez.in/managed-office-space/corporate-conference-room",
+    "/terms-and-conditions": {
+      "title": "Terms & Conditions — WorkEZ",
+      "description": "Terms and conditions for WorkEZ managed office services, workspace bookings, event space rentals, and workez.in website usage.",
+      "canonical": "https://workez.in/terms-and-conditions",
       "robots": "index, follow",
       "og": {
-        "title": "Meeting Rooms & Boardrooms for Rent — Hourly Booking | WorkEZ",
-        "description": "Premium meeting rooms, boardrooms, and event spaces across 12 centres. AV equipment, video conferencing, and catering. Book by the hour.",
-        "type": "product",
-        "url": "https://workez.in/managed-office-space/corporate-conference-room",
+        "title": "Terms & Conditions — WorkEZ",
+        "description": "Terms and conditions for WorkEZ managed office services, workspace bookings, event space rentals, and workez.in website usage.",
+        "type": "website",
+        "url": "https://workez.in/terms-and-conditions",
         "site_name": "WorkEZ",
         "locale": "en_IN",
         "image": "https://workez.in/og-default.jpg"
       },
       "twitter": {
         "card": "summary_large_image",
-        "title": "Meeting Rooms & Boardrooms for Rent — Hourly Booking | WorkEZ",
-        "description": "Premium meeting rooms, boardrooms, and event spaces across 12 centres. AV equipment, video conferencing, and catering. Book by the hour.",
+        "title": "Terms & Conditions — WorkEZ",
+        "description": "Terms and conditions for WorkEZ managed office services, workspace bookings, event space rentals, and workez.in website usage.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/managed-office-space": {
+      "title": "Managed Office Solutions — Enterprise & Private | WorkEZ",
+      "description": "Fully managed workspace solutions from WorkEZ. Enterprise offices, private cabins, meeting rooms, and event spaces across 12 centres in 3 cities.",
+      "canonical": "https://workez.in/managed-office-space",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office Solutions — Enterprise & Private | WorkEZ",
+        "description": "Fully managed workspace solutions from WorkEZ. Enterprise offices, private cabins, meeting rooms, and event spaces across 12 centres in 3 cities.",
+        "type": "website",
+        "url": "https://workez.in/managed-office-space",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
       },
-      "keywords": "meeting room for rent Chennai, boardroom booking, conference room hourly, event space Chennai"
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office Solutions — Enterprise & Private | WorkEZ",
+        "description": "Fully managed workspace solutions from WorkEZ. Enterprise offices, private cabins, meeting rooms, and event spaces across 12 centres in 3 cities.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
     },
     "/managed-office-space/enterprise-office-space": {
-      "title": "Enterprise Managed Office Space — Large Teams | WorkEZ",
-      "description": "Fully managed enterprise office spaces with custom fit-outs, dedicated floors, and all-inclusive pricing. 50 to 3,000+ seats across Chennai, Bangalore & Coimbatore.",
+      "title": "Enterprise Managed Office — Large Teams | WorkEZ",
+      "description": "Fully managed enterprise office spaces with custom fit-outs, dedicated floors, and all-inclusive pricing. 50 to 3,000+ seats in Chennai, Bangalore, Coimbatore.",
       "canonical": "https://workez.in/managed-office-space/enterprise-office-space",
       "robots": "index, follow",
       "og": {
-        "title": "Enterprise Managed Office Space — Large Teams | WorkEZ",
-        "description": "Fully managed enterprise office spaces with custom fit-outs, dedicated floors, and all-inclusive pricing. 50 to 3,000+ seats across Chennai, Bangalore & Coimbatore.",
+        "title": "Enterprise Managed Office — Large Teams | WorkEZ",
+        "description": "Fully managed enterprise office spaces with custom fit-outs, dedicated floors, and all-inclusive pricing. 50 to 3,000+ seats in Chennai, Bangalore, Coimbatore.",
         "type": "product",
         "url": "https://workez.in/managed-office-space/enterprise-office-space",
         "site_name": "WorkEZ",
@@ -911,21 +240,20 @@
       },
       "twitter": {
         "card": "summary_large_image",
-        "title": "Enterprise Managed Office Space — Large Teams | WorkEZ",
-        "description": "Fully managed enterprise office spaces with custom fit-outs, dedicated floors, and all-inclusive pricing. 50 to 3,000+ seats across Chennai, Bangalore & Coimbatore.",
+        "title": "Enterprise Managed Office — Large Teams | WorkEZ",
+        "description": "Fully managed enterprise office spaces with custom fit-outs, dedicated floors, and all-inclusive pricing. 50 to 3,000+ seats in Chennai, Bangalore, Coimbatore.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "enterprise office space, managed office enterprise, large office space Chennai, custom office fit-out"
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
     },
     "/managed-office-space/private-managed-offices": {
-      "title": "Private Managed Offices — Furnished & Ready to Move | WorkEZ",
+      "title": "Private Managed Offices — Ready to Move | WorkEZ",
       "description": "Pre-set private offices with premium furnishing, dedicated meeting rooms, and flexible terms. Ideal for teams of 5-50. Move in within 48 hours.",
       "canonical": "https://workez.in/managed-office-space/private-managed-offices",
       "robots": "index, follow",
       "og": {
-        "title": "Private Managed Offices — Furnished & Ready to Move | WorkEZ",
+        "title": "Private Managed Offices — Ready to Move | WorkEZ",
         "description": "Pre-set private offices with premium furnishing, dedicated meeting rooms, and flexible terms. Ideal for teams of 5-50. Move in within 48 hours.",
         "type": "product",
         "url": "https://workez.in/managed-office-space/private-managed-offices",
@@ -935,98 +263,403 @@
       },
       "twitter": {
         "card": "summary_large_image",
-        "title": "Private Managed Offices — Furnished & Ready to Move | WorkEZ",
+        "title": "Private Managed Offices — Ready to Move | WorkEZ",
         "description": "Pre-set private offices with premium furnishing, dedicated meeting rooms, and flexible terms. Ideal for teams of 5-50. Move in within 48 hours.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "private office space, private managed office, furnished office Chennai, ready to move office"
-    },
-    "/privacy-policy/": {
-      "title": "Privacy Policy — WorkEZ",
-      "description": "WorkEZ privacy policy covering data collection, usage, cookies, and personal information protection for our website and managed office services.",
-      "canonical": "https://workez.in/privacy-policy/",
-      "robots": "index, follow",
-      "og": {
-        "title": "Privacy Policy — WorkEZ",
-        "description": "WorkEZ privacy policy covering data collection, usage, cookies, and personal information protection for our website and managed office services.",
-        "type": "website",
-        "url": "https://workez.in/privacy-policy/",
-        "site_name": "WorkEZ",
-        "locale": "en_IN",
+        "creator": "@workez_",
         "image": "https://workez.in/og-default.jpg"
-      },
-      "twitter": {
-        "card": "summary_large_image",
-        "title": "Privacy Policy — WorkEZ",
-        "description": "WorkEZ privacy policy covering data collection, usage, cookies, and personal information protection for our website and managed office services.",
-        "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
       }
     },
-    "/terms-and-conditions/": {
-      "title": "Terms & Conditions — WorkEZ",
-      "description": "Terms and conditions for WorkEZ managed office services, workspace bookings, event space rentals, and workez.in website usage.",
-      "canonical": "https://workez.in/terms-and-conditions/",
+    "/managed-office-space/corporate-conference-room": {
+      "title": "Meeting Rooms & Boardrooms for Rent | WorkEZ",
+      "description": "Premium meeting rooms, boardrooms, and event spaces across 12 centres. AV equipment, video conferencing, and catering. Book by the hour.",
+      "canonical": "https://workez.in/managed-office-space/corporate-conference-room",
       "robots": "index, follow",
       "og": {
-        "title": "Terms & Conditions — WorkEZ",
-        "description": "Terms and conditions for WorkEZ managed office services, workspace bookings, event space rentals, and workez.in website usage.",
-        "type": "website",
-        "url": "https://workez.in/terms-and-conditions/",
+        "title": "Meeting Rooms & Boardrooms for Rent | WorkEZ",
+        "description": "Premium meeting rooms, boardrooms, and event spaces across 12 centres. AV equipment, video conferencing, and catering. Book by the hour.",
+        "type": "product",
+        "url": "https://workez.in/managed-office-space/corporate-conference-room",
         "site_name": "WorkEZ",
         "locale": "en_IN",
         "image": "https://workez.in/og-default.jpg"
       },
       "twitter": {
         "card": "summary_large_image",
-        "title": "Terms & Conditions — WorkEZ",
-        "description": "Terms and conditions for WorkEZ managed office services, workspace bookings, event space rentals, and workez.in website usage.",
+        "title": "Meeting Rooms & Boardrooms for Rent | WorkEZ",
+        "description": "Premium meeting rooms, boardrooms, and event spaces across 12 centres. AV equipment, video conferencing, and catering. Book by the hour.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
       }
     },
-    "/virtual-tour": {
-      "title": "Virtual Tour — Walk Through WorkEZ Centres Online | WorkEZ",
-      "description": "Take a virtual tour of WorkEZ managed office centres across Chennai, Bangalore & Coimbatore. 360° views of workspaces, meeting rooms, and amenities.",
-      "canonical": "https://workez.in/virtual-tour",
+    "/location": {
+      "title": "Office Space Locations — Chennai, Bangalore, Coimbatore | WorkEZ",
+      "description": "Find your WorkEZ managed office. 12 centres across Chennai (10), Bangalore (1), and Coimbatore (1). 28,000+ enterprise-grade seats.",
+      "canonical": "https://workez.in/location",
       "robots": "index, follow",
       "og": {
-        "title": "Virtual Tour — Walk Through WorkEZ Centres Online | WorkEZ",
-        "description": "Take a virtual tour of WorkEZ managed office centres across Chennai, Bangalore & Coimbatore. 360° views of workspaces, meeting rooms, and amenities.",
+        "title": "Office Space Locations — Chennai, Bangalore, Coimbatore | WorkEZ",
+        "description": "Find your WorkEZ managed office. 12 centres across Chennai (10), Bangalore (1), and Coimbatore (1). 28,000+ enterprise-grade seats.",
         "type": "website",
-        "url": "https://workez.in/virtual-tour",
+        "url": "https://workez.in/location",
         "site_name": "WorkEZ",
         "locale": "en_IN",
         "image": "https://workez.in/og-default.jpg"
       },
       "twitter": {
         "card": "summary_large_image",
-        "title": "Virtual Tour — Walk Through WorkEZ Centres Online | WorkEZ",
-        "description": "Take a virtual tour of WorkEZ managed office centres across Chennai, Bangalore & Coimbatore. 360° views of workspaces, meeting rooms, and amenities.",
+        "title": "Office Space Locations — Chennai, Bangalore, Coimbatore | WorkEZ",
+        "description": "Find your WorkEZ managed office. 12 centres across Chennai (10), Bangalore (1), and Coimbatore (1). 28,000+ enterprise-grade seats.",
         "site": "@workez_",
-        "image": "https://workez.in/og-default.jpg",
-        "creator": "@workez_"
-      },
-      "keywords": "WorkEZ virtual tour, office space virtual tour, managed office 360 view"
-    }
-  },
-  "_placeholder_images": {
-    "_note": "THESE IMAGE PATHS NEED REAL FILES. Create and upload before launch.",
-    "og-default.jpg": {
-      "path": "https://workez.in/og-default.jpg",
-      "size": "1200x630px",
-      "usage": "Default OG image for 29 non-location pages (social sharing)",
-      "action": "MUST CREATE: Design a branded WorkEZ OG image with logo + \"Managed Office Spaces\" text"
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
     },
-    "centre-hero-images": {
-      "pattern": "https://workez.in/assets/images/centres/{slug}-hero.webp",
-      "size": "1200x630px for OG, 1440x600px for page hero",
-      "count": "12 images needed (one per centre)",
-      "action": "MUST CREATE: Professional hero photo of each centre. Used in OG tags + page hero."
+    "/location/managed-office-space-chennai": {
+      "title": "Managed Office Space in Chennai — 10 Centres | WorkEZ",
+      "description": "WorkEZ operates 10 managed office centres across Chennai. Anna Salai, Guindy, OMR, Perungudi, Velachery, Pallavaram, and Alwarpet.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office Space in Chennai — 10 Centres | WorkEZ",
+        "description": "WorkEZ operates 10 managed office centres across Chennai. Anna Salai, Guindy, OMR, Perungudi, Velachery, Pallavaram, and Alwarpet.",
+        "type": "website",
+        "url": "https://workez.in/location/managed-office-space-chennai",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office Space in Chennai — 10 Centres | WorkEZ",
+        "description": "WorkEZ operates 10 managed office centres across Chennai. Anna Salai, Guindy, OMR, Perungudi, Velachery, Pallavaram, and Alwarpet.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-chennai/workez-anna-salai": {
+      "title": "Managed Office in Anna Salai, Chennai | WorkEZ Hansa",
+      "description": "1,530 seats at Hansa Building, Anna Salai. 5 min from Thousand Lights Metro. Premium managed office with cafeteria. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai/workez-anna-salai",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office in Anna Salai, Chennai | WorkEZ Hansa",
+        "description": "1,530 seats at Hansa Building, Anna Salai. 5 min from Thousand Lights Metro. Premium managed office with cafeteria. Book a tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-chennai/workez-anna-salai",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office in Anna Salai, Chennai | WorkEZ Hansa",
+        "description": "1,530 seats at Hansa Building, Anna Salai. 5 min from Thousand Lights Metro. Premium managed office with cafeteria. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-chennai/workez-anna-salai-clubhouse": {
+      "title": "Managed Office on Club House Road, Chennai | WorkEZ",
+      "description": "700 enterprise seats on Club House Road, Anna Salai. Near Taj Club House & Spencer Plaza. Managed office with meeting rooms. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai/workez-anna-salai-clubhouse",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office on Club House Road, Chennai | WorkEZ",
+        "description": "700 enterprise seats on Club House Road, Anna Salai. Near Taj Club House & Spencer Plaza. Managed office with meeting rooms. Book a tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-chennai/workez-anna-salai-clubhouse",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office on Club House Road, Chennai | WorkEZ",
+        "description": "700 enterprise seats on Club House Road, Anna Salai. Near Taj Club House & Spencer Plaza. Managed office with meeting rooms. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-chennai/workez-guindy": {
+      "title": "Managed Office in Guindy, Chennai | WorkEZ Willow Square",
+      "description": "1,250 seats at Willow Square, Guindy. Near Guindy Metro & ITC Grand Chola. 24/7 access, cafeteria, meeting rooms. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai/workez-guindy",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office in Guindy, Chennai | WorkEZ Willow Square",
+        "description": "1,250 seats at Willow Square, Guindy. Near Guindy Metro & ITC Grand Chola. 24/7 access, cafeteria, meeting rooms. Book a tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-chennai/workez-guindy",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office in Guindy, Chennai | WorkEZ Willow Square",
+        "description": "1,250 seats at Willow Square, Guindy. Near Guindy Metro & ITC Grand Chola. 24/7 access, cafeteria, meeting rooms. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-chennai/workez-guindy-chambers": {
+      "title": "Managed Office in Guindy, Chennai | WorkEZ Chambers",
+      "description": "450 seats at SIDCO Industrial Estate, Guindy. Boutique enterprise office near Guindy Metro. All-inclusive pricing. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai/workez-guindy-chambers",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office in Guindy, Chennai | WorkEZ Chambers",
+        "description": "450 seats at SIDCO Industrial Estate, Guindy. Boutique enterprise office near Guindy Metro. All-inclusive pricing. Book a tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-chennai/workez-guindy-chambers",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office in Guindy, Chennai | WorkEZ Chambers",
+        "description": "450 seats at SIDCO Industrial Estate, Guindy. Boutique enterprise office near Guindy Metro. All-inclusive pricing. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-chennai/workez-perungudi": {
+      "title": "Managed Office on OMR Perungudi, Chennai | WorkEZ",
+      "description": "1,740 seats at SM Towers, Perungudi OMR. 4 floors, 100,000 sq ft in the heart of Chennai IT corridor. Book a free tour.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai/workez-perungudi",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office on OMR Perungudi, Chennai | WorkEZ",
+        "description": "1,740 seats at SM Towers, Perungudi OMR. 4 floors, 100,000 sq ft in the heart of Chennai IT corridor. Book a free tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-chennai/workez-perungudi",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office on OMR Perungudi, Chennai | WorkEZ",
+        "description": "1,740 seats at SM Towers, Perungudi OMR. 4 floors, 100,000 sq ft in the heart of Chennai IT corridor. Book a free tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-chennai/workez-omr": {
+      "title": "Managed Office on OMR, Chennai | WorkEZ Urban Square",
+      "description": "Chennai’s largest managed office — 3,000 seats at Urban Square, OMR. 7 floors near Holiday Inn & Taj Wellington Mews. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai/workez-omr",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office on OMR, Chennai | WorkEZ Urban Square",
+        "description": "Chennai’s largest managed office — 3,000 seats at Urban Square, OMR. 7 floors near Holiday Inn & Taj Wellington Mews. Book a tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-chennai/workez-omr",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office on OMR, Chennai | WorkEZ Urban Square",
+        "description": "Chennai’s largest managed office — 3,000 seats at Urban Square, OMR. 7 floors near Holiday Inn & Taj Wellington Mews. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-chennai/workez-omr-the-ark": {
+      "title": "Managed Office in Sholinganallur OMR | WorkEZ The Ark",
+      "description": "875 seats at The Ark, Sholinganallur OMR. Near upcoming metro station & TCS Siruseri. Managed office with 24/7 access. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai/workez-omr-the-ark",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office in Sholinganallur OMR | WorkEZ The Ark",
+        "description": "875 seats at The Ark, Sholinganallur OMR. Near upcoming metro station & TCS Siruseri. Managed office with 24/7 access. Book a tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-chennai/workez-omr-the-ark",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office in Sholinganallur OMR | WorkEZ The Ark",
+        "description": "875 seats at The Ark, Sholinganallur OMR. Near upcoming metro station & TCS Siruseri. Managed office with 24/7 access. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-chennai/workez-pallavaram": {
+      "title": "Office Near Chennai Airport — Pallavaram | WorkEZ",
+      "description": "Closest managed office to Chennai airport — 5 min drive. 2,600 seats at Pallavaram. Enterprise-grade workspace. Book a free tour.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai/workez-pallavaram",
+      "robots": "index, follow",
+      "og": {
+        "title": "Office Near Chennai Airport — Pallavaram | WorkEZ",
+        "description": "Closest managed office to Chennai airport — 5 min drive. 2,600 seats at Pallavaram. Enterprise-grade workspace. Book a free tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-chennai/workez-pallavaram",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Office Near Chennai Airport — Pallavaram | WorkEZ",
+        "description": "Closest managed office to Chennai airport — 5 min drive. 2,600 seats at Pallavaram. Enterprise-grade workspace. Book a free tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-chennai/workez-velachery": {
+      "title": "Managed Office in Velachery, Chennai | WorkEZ Helix",
+      "description": "2,250 seats at Helix, Velachery. Next to Phoenix MarketCity Mall & Westin Hotel. Managed office with 24/7 access. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai/workez-velachery",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office in Velachery, Chennai | WorkEZ Helix",
+        "description": "2,250 seats at Helix, Velachery. Next to Phoenix MarketCity Mall & Westin Hotel. Managed office with 24/7 access. Book a tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-chennai/workez-velachery",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office in Velachery, Chennai | WorkEZ Helix",
+        "description": "2,250 seats at Helix, Velachery. Next to Phoenix MarketCity Mall & Westin Hotel. Managed office with 24/7 access. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-chennai/workez-alwarpet": {
+      "title": "Managed Office in Alwarpet, Chennai | WorkEZ",
+      "description": "500 seats in Alwarpet, Chennai’s most premium neighbourhood. Boutique managed office near CIT Nagar & TTK Road. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-chennai/workez-alwarpet",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office in Alwarpet, Chennai | WorkEZ",
+        "description": "500 seats in Alwarpet, Chennai’s most premium neighbourhood. Boutique managed office near CIT Nagar & TTK Road. Book a tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-chennai/workez-alwarpet",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office in Alwarpet, Chennai | WorkEZ",
+        "description": "500 seats in Alwarpet, Chennai’s most premium neighbourhood. Boutique managed office near CIT Nagar & TTK Road. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-bengaluru": {
+      "title": "Managed Office Space in Bengaluru | WorkEZ",
+      "description": "WorkEZ Bengaluru — 3,300+ enterprise seats on Outer Ring Road. Premium managed office near Embassy Tech Village. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-bengaluru",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office Space in Bengaluru | WorkEZ",
+        "description": "WorkEZ Bengaluru — 3,300+ enterprise seats on Outer Ring Road. Premium managed office near Embassy Tech Village. Book a tour.",
+        "type": "website",
+        "url": "https://workez.in/location/managed-office-space-bengaluru",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office Space in Bengaluru | WorkEZ",
+        "description": "WorkEZ Bengaluru — 3,300+ enterprise seats on Outer Ring Road. Premium managed office near Embassy Tech Village. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-bengaluru/workez-koramangala": {
+      "title": "Managed Office in Bengaluru ORR | WorkEZ Bellandur",
+      "description": "3,300+ enterprise seats on Outer Ring Road, Bengaluru. 7 floors, 165,000 sq ft near Embassy Tech Village. Plug-and-play. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-bengaluru/workez-koramangala",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office in Bengaluru ORR | WorkEZ Bellandur",
+        "description": "3,300+ enterprise seats on Outer Ring Road, Bengaluru. 7 floors, 165,000 sq ft near Embassy Tech Village. Plug-and-play. Book a tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-bengaluru/workez-koramangala",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office in Bengaluru ORR | WorkEZ Bellandur",
+        "description": "3,300+ enterprise seats on Outer Ring Road, Bengaluru. 7 floors, 165,000 sq ft near Embassy Tech Village. Plug-and-play. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-coimbatore": {
+      "title": "Managed Office Space in Coimbatore | WorkEZ",
+      "description": "WorkEZ Coimbatore — 2,000 enterprise seats in Saravanampatti IT Corridor. Anchor tenant PwC. Phase 1 of 300,000 sq ft. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-coimbatore",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office Space in Coimbatore | WorkEZ",
+        "description": "WorkEZ Coimbatore — 2,000 enterprise seats in Saravanampatti IT Corridor. Anchor tenant PwC. Phase 1 of 300,000 sq ft. Book a tour.",
+        "type": "website",
+        "url": "https://workez.in/location/managed-office-space-coimbatore",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office Space in Coimbatore | WorkEZ",
+        "description": "WorkEZ Coimbatore — 2,000 enterprise seats in Saravanampatti IT Corridor. Anchor tenant PwC. Phase 1 of 300,000 sq ft. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
+    },
+    "/location/managed-office-space-coimbatore/workez-rs-puram": {
+      "title": "Managed Office in Coimbatore | WorkEZ Vivera",
+      "description": "2,000 seats at Vivera, Saravanampatti IT Corridor. Anchor tenant: PwC. Phase 1 of 300,000 sq ft. Managed office. Book a tour.",
+      "canonical": "https://workez.in/location/managed-office-space-coimbatore/workez-rs-puram",
+      "robots": "index, follow",
+      "og": {
+        "title": "Managed Office in Coimbatore | WorkEZ Vivera",
+        "description": "2,000 seats at Vivera, Saravanampatti IT Corridor. Anchor tenant: PwC. Phase 1 of 300,000 sq ft. Managed office. Book a tour.",
+        "type": "place",
+        "url": "https://workez.in/location/managed-office-space-coimbatore/workez-rs-puram",
+        "site_name": "WorkEZ",
+        "locale": "en_IN",
+        "image": "https://workez.in/og-default.jpg"
+      },
+      "twitter": {
+        "card": "summary_large_image",
+        "title": "Managed Office in Coimbatore | WorkEZ Vivera",
+        "description": "2,000 seats at Vivera, Saravanampatti IT Corridor. Anchor tenant: PwC. Phase 1 of 300,000 sq ft. Managed office. Book a tour.",
+        "site": "@workez_",
+        "creator": "@workez_",
+        "image": "https://workez.in/og-default.jpg"
+      }
     }
   }
 }
