@@ -44,4 +44,3 @@ examples/               ← copy-paste integration examples
 
 - 4 cities, 13 centres, 24,000+ seats.
 - There is **no** "One National Park, Velachery" — the Velachery centre is Helix. Do not re-add it.
-- The old `workez-schemas.json` (elsewhere in the repo) references pages that don't exist live (pricing, virtual-tour, compare, case-studies). It is **superseded** by this folder — don't implement from it.
